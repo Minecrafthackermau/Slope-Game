@@ -1,6 +1,3 @@
-
-  
-
   #close-btn:hover {
     scale: 1.1;
     transition: 0.2s;
@@ -34,7 +31,12 @@
 background-repeat: no-repeat; 
 border-radius: 10px;
 
-
+  }
+  .one:hover {
+    background-image:  url("/one.gif");
+    background-size: cover;
+    transition: 1s;
+    border-radius: 10px;
 
   }
   .two {
@@ -50,7 +52,30 @@ border-radius: 10px;
     background-color: #5865F2;
     border-radius: 10px;
 
-
+  }
+  .two:hover {
+    background-image: url("/2.jpg");
+    cursor: pointer;
+    background-size: 100px 100px;
+    background-position: center;
+    transition: 1s;
+    background-repeat: repeat;
+  }
+  .three {
+    width: 28%;
+    height: 60vh;
+    background-color: rgb(39, 39, 39);
+    margin: 20px;
+    background-image: url("/BGS-circle-HD.png");
+    background-size: 100px 100px ;
+    background-position: center center;
+background-repeat: no-repeat; 
+border-radius: 10px;
+ }
+  .three:hover {
+    background-image:  url("/three.gif");
+    background-size: cover;
+    transition: 1s;
 
   }
 
